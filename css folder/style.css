@@ -1,0 +1,160 @@
+body {
+    background: url(https://img.freepik.com/free-photo/digital-presentation-related-performance-business-using-graph_53876-98525.jpg);
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 15px solid grey;
+    margin: 40px 40px 80px 40px;
+}
+
+.photoHeader {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 25px 15px 25px;
+    border: 10px solid grey;
+    margin: 40px 40px 80px 40px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+
+    .flexcontainer img {
+        flex: auto;
+        margin: 5px;
+        padding: 30px;
+
+
+    }
+}
+
+
+.images {
+    box-shadow: 10px 15px 5px;
+}
+
+.aboutHeader {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 25px 15px 25px;
+    border: 10px solid grey;
+    margin: 40px 40px 80px 40px;
+}
+
+.about {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:30px ;
+    border:15px solid grey ;
+    margin: 30px ;
+}
+
+.contactHeader {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 25px 15px 25px;
+    border: 10px solid grey;
+    margin: 40px 40px 80px 40px;
+}
+
+input {
+    background-color: pink;
+}
+
+label {
+    color: white;
+}
+
+.socialsHeader {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 25px 15px 25px;
+    border: 10px solid grey;
+    margin: 40px 40px 80px 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  box-align: center;
+}
+
+.grid-item {
+  background-color: blue;
+}
+
+
+.animated-button {
+    background-color: black; 
+    color: pink;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 1s ease;
+  }
+  
+  
+  
+  .animated-button:hover {
+    background-color: blue;
+  }
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .flex-container {
+    .flex-container {
+  display: flex;
+  flex-direction: column;
+}
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    text-align: center;
+    background-color: yellow;
+    color: orange;
+    padding: 20px 25px 15px 25px;
+    border: 10px solid green;
+    margin: 40px 40px 80px 40px;
+  }
+}
+
+
+
+
+
